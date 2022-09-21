@@ -14,9 +14,14 @@
         "category": 1
     }],
     "categories": [{
-        "id": 1,
-        "title": "Non-classé"
-    }],
+            "id": 1,
+            "title": "Fruits & Vegetables"
+        },
+        {
+            "id": 2,
+            "title": "Furnitures"
+        }
+    ],
     "products": [{
             "id": 1,
             "name": "Pomme",
