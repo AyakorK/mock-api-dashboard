@@ -1,61 +1,227 @@
 {
-    "users": [
-        {
+    "users": [{
+        "id": 1,
+        "username": "Test",
+        "money": 1000,
+        "factories": []
+    }],
+    "posts": [{
+        "id": 1,
+        "title": "",
+        "content": "Markdown ? HTML ? Just Text ?",
+        "author": "",
+        "publishedAt": "Date ?",
+        "category": 1
+    }],
+    "categories": [{
+        "id": 1,
+        "title": "Non-classé"
+    }],
+    "products": [{
             "id": 1,
-            "username": "Test",
-            "money": 1000,
-            "factories": []
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "",
-            "content": "Markdown ? HTML ? Just Text ?",
-            "author": "",
-            "publishedAt": "Date ?",
+            "name": "Pomme",
+            "price": 1,
+            "quantity": 1000,
             "category": 1
+        },
+        {
+            "id": 2,
+            "name": "Poire",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 3,
+            "name": "Banane",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 4,
+            "name": "Orange",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 5,
+            "name": "Fraise",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 6,
+            "name": "Pêche",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 7,
+            "name": "Mangue",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 8,
+            "name": "Kiwi",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 9,
+            "name": "Ananas",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 10,
+            "name": "Cerise",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 11,
+            "name": "Framboise",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 12,
+            "name": "Mûre",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 13,
+            "name": "Myrtille",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 14,
+            "name": "Cassis",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 15,
+            "name": "Groseille",
+            "price": 1,
+            "quantity": 1000,
+            "category": 1
+        },
+        {
+            "id": 16,
+            "name": "Table",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 17,
+            "name": "Chaise",
+            "price": 50,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 18,
+            "name": "Lit",
+            "price": 200,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 19,
+            "name": "Canapé",
+            "price": 300,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 20,
+            "name": "Bureau",
+            "price": 150,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 21,
+            "name": "Chaise de bureau",
+            "price": 50,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 22,
+            "name": "Meuble TV",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 23,
+            "name": "Meuble de rangement",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 24,
+            "name": "Meuble de cuisine",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 25,
+            "name": "Meuble de salle de bain",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 26,
+            "name": "Meuble de chambre",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
+        },
+        {
+            "id": 27,
+            "name": "Meuble de salon",
+            "price": 100,
+            "quantity": 1000,
+            "category": 2
         }
     ],
-    "categories": [
-        {
-            "id": 1,
-            "title": "Non-classé"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "",
-            "descriptions": "",
-            "variants": [{
-                "color": "?"
-            }],
-            "price": 10,
-            "stock": 10
-        }
-    ],
-    "orders": [
-        {
-            "id": 1,
-            "products": [
-                {
-                    "product_id": 1,
-                    "variant": 0,
-                    "quantity": 1
-                }
-            ],
-            "total_price": 10,
-            "client_id": 1
-        }
-    ],
-    "clients": [
-        {
-            "id": 1,
-            "email": "",
-            "firstname": "",
-            "lastname": "",
-            "orders": [1]
-        }
-    ]
+    "orders": [{
+        "id": 1,
+        "products": [{
+            "product_id": 1,
+            "variant": 0,
+            "quantity": 1
+        }],
+        "total_price": 10,
+        "client_id": 1
+    }],
+    "clients": [{
+        "id": 1,
+        "email": "",
+        "firstname": "",
+        "lastname": "",
+        "orders": [1]
+    }]
 }
